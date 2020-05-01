@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Picolle</string>
+
+    <string name="search_word_enter">Enter words...</string>
 </resources>
