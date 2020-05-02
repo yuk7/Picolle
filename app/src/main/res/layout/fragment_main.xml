@@ -18,14 +18,15 @@
             android:ems="10"
             android:imeOptions="actionSearch"
             android:inputType="text"
-            android:text="@{viewModel.searchWord}"
+            android:text="@={viewModel.searchWord}"
             android:hint="@string/search_word_enter"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.486"
-            tools:text="@string/search_word_enter" />
+            tools:text="@string/search_word_enter"
+            onEditor="@{viewModel.onEdit}" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
