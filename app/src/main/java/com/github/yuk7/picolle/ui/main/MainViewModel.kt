@@ -3,13 +3,12 @@ package com.github.yuk7.picolle.ui.main
 import android.content.SharedPreferences
 import android.view.inputmethod.EditorInfo
 import android.widget.TextView
-import androidx.databinding.ObservableField
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class MainViewModel : ViewModel() {
     val searchWord = MutableLiveData<String>()
+
     init {
         searchWord.value = ""
     }
