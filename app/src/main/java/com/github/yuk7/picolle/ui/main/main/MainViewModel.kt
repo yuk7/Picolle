@@ -1,4 +1,4 @@
-package com.github.yuk7.picolle.ui.main
+package com.github.yuk7.picolle.ui.main.main
 
 import android.content.SharedPreferences
 import android.view.inputmethod.EditorInfo

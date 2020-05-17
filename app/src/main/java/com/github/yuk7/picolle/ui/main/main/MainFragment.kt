@@ -1,4 +1,4 @@
-package com.github.yuk7.picolle.ui.main
+package com.github.yuk7.picolle.ui.main.main
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -15,7 +15,8 @@ class MainFragment : Fragment() {
         fun newInstance() = MainFragment()
     }
 
-    private val mainViewModel = MainViewModel()
+    private val mainViewModel =
+        MainViewModel()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

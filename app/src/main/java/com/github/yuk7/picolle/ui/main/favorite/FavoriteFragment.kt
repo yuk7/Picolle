@@ -1,4 +1,4 @@
-package com.github.yuk7.picolle.ui.favorite
+package com.github.yuk7.picolle.ui.main.favorite
 
 import androidx.fragment.app.Fragment
 

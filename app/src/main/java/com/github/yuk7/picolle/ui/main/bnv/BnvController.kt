@@ -1,11 +1,11 @@
-package com.github.yuk7.picolle.ui.bnv
+package com.github.yuk7.picolle.ui.main.bnv
 
 import androidx.fragment.app.FragmentManager
 import com.github.yuk7.picolle.R
-import com.github.yuk7.picolle.ui.favorite.FavoriteFragment
-import com.github.yuk7.picolle.ui.history.HistoryFragment
-import com.github.yuk7.picolle.ui.main.MainFragment
-import com.github.yuk7.picolle.ui.setting.SettingFragment
+import com.github.yuk7.picolle.ui.main.favorite.FavoriteFragment
+import com.github.yuk7.picolle.ui.main.history.HistoryFragment
+import com.github.yuk7.picolle.ui.main.main.MainFragment
+import com.github.yuk7.picolle.ui.main.setting.SettingFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class BnvController(private val fm: FragmentManager) {
